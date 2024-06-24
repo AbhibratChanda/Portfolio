@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Abhibrat Logo.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello<br>Myself Abhibrat Chanda
+                <br>-A Front-end Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p class="me">Confident Student passionate about learning new skills. Ambitious and driven individual ready and willing to work hard and learn from professionals. Brings outstanding computer and communication skills.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Web Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android apps</li>
+                        <li><span>Java Development</span><br>Building Java Projects</li>
+                        <li><span>SQL Database Management</span><br>Manages Databases</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - current</span><br>Project Internship at Codsoft</li>
+                        <li><span>June 2024-July 2024</span><br>Internship at Doordarshan</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2020</span><br>Class 10 at Kendriya Vidyalaya Khanapara</li>
+                        <li><span>2021-2022</span><br>Class 12 at Sai RNS Academy</li>
+                        <li><span>2022-Current</span><br>B-Tech at KIIT</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div id="services">
+        <div id="hero-shape">
+            <div id="hero-1"></div>
+            <div id="hero-2"></div>
+            <div id="hero-3"></div>
+        </div>
+        
+        <div class="container1">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-chrome"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit adipisci veniam officiis suscipit? Accusantium dolores labore delectus impedit modi nam, magni, ipsam accusamus maiores rem magnam dicta illum maxime!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit adipisci veniam officiis suscipit? Accusantium dolores labore delectus impedit modi nam, magni, ipsam accusamus maiores rem magnam dicta illum maxime!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit adipisci veniam officiis suscipit? Accusantium dolores labore delectus impedit modi nam, magni, ipsam accusamus maiores rem magnam dicta illum maxime!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ball"></div>
+
+    <div id="Portfolio">
+        <div class="container1">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This App connects you to the talented people around the world</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Bank Management System</h3>
+                        <p>This system can store the data entered by the user in MySql database as well as deposit or withdraw amount of respective user based on correct pin and card number entered by the user.</p>
+                       <a href="https://github.com/AbhibratChanda/Bank-Management-System"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This App connects you to the talented people around the world</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <h4>See more</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <div class="container1">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Contact-Me">Contact Me</h1>
+                    <h4><i class="fa-solid fa-envelope"></i>abhibratchandabunty@gmail.com</h4>
+                    <h4><i class="fa-solid fa-phone"></i>+91 6900186037</h4>
+                    <div class="brand">
+                    <div class="brands">
+                        <i class="fa-brands fa-instagram"><a href="#"></a></i>
+                        </div>
+                        <div class="brands">
+                        <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="brands">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        </div> <div class="brands">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div><div class="brands">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                </div>
+                <div class="resume">
+                    <button><a href="Abhibrat's Resume (4).pdf"> Resume</a></button>
+                </div> 
+                    </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button  type="submit" class="btn2">Submit</button>
+                    
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            //event.currentTarget.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL ='https://script.google.com/macros/s/AKfycbwTIuevVR-AQ46lSVgyqHSqS0khHf04CmDMtxIOESivQXyaqz-WF_UK069Oth7LK7Gd/exec' 
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+      </script>
+
+      
+    
+</body>
+</html>
